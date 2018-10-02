@@ -1,0 +1,66 @@
+/*
+-compress images (make the size drop below 1.5 mb) using automation tools
+*/
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+article {
+   width: 50em;
+   margin: 0 auto;
+   padding: 50px;
+   border: dotted 2px #8147E4;
+   border-top: none;
+}
+
+header {
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  background-image: linear-gradient(to right, #8147E4, #99A2E1, #C054DA, #99EED2, #504DED);
+}
+
+h1, h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+p, a, .photo__caption {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.photo__figure {
+  width: 100%;
+  margin: 0;
+}
+
+.photo {
+  width: 100%;
+}
+
+.photo__caption {
+  background-color: #99EED2;
+  padding: 10px;
+  width: 300px;
+  z-index: 1;
+  position: relative;
+  top: -50px;
+  left: -20px;
+  font-size: 1rem;
+
+}
